@@ -1,6 +1,8 @@
 function mshaded( context )
 {
 	this.init( context );
+	WIDTH = window.innerWidth;
+   	HEIGHT = window.innerHeight;
 }
 
 mshaded.prototype =
